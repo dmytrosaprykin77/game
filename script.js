@@ -14,14 +14,24 @@ const help1 = document.querySelector(".help1");
   
    let arrow = document.querySelector(".arrow");
     arrow.src = "none.png";
-  //22 async function arrowflay() {
-  // 22 for(let i = 0; i < 750; i++){
-   // 22 x += 2;
-   // 333await new Promise(r => setTimeout(r, 0.001));
-    //22arrow.style.left = x + "px";
+
+
+  let button = document.querySelector("button")
+  button.addEventListener('click',()=>{
+
+  })
+
+  //async function arrowflay() {
+  // for(let i = 0; i < 750; i++){
+  //x += 2;
+  
+   //await new Promise(r => setTimeout(r, 0.001));
+   
+   //arrow.style.left = x + "px";
        // }
  // }
  // arrowflay();
+
   let index = 0;
   let isTyping = false;
   let interval = null;
@@ -33,7 +43,7 @@ const help1 = document.querySelector(".help1");
  
   let pointsDisplay = document.querySelector('.points-box')
   let points = 0;
-pointsDisplay.textContent = "POINTS: " + points;
+  pointsDisplay.textContent = "POINTS: " + points;
 
   const commands = [
   `let arrow = document.querySelector(".arrow");`,

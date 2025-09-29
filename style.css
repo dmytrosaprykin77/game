@@ -136,6 +136,21 @@ body{
     font-weight: 700;
     }
 
+button{
+    position: absolute;
+    left: 1800px;
+    bottom: 770px;
+    background: orange;
+    width:100px;
+    height: 50px;
+    text-align: center;
+    color: white;
+    font-size:12px;
+    font-family: arial;
+    font-weight: 700;
+    line-height: 50px;
+}
+
 audio{
     display:none;
     position: absolute;
