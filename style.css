@@ -169,6 +169,15 @@ audio{
     line-height: 15px;
     }
 
+.dial-text-correct-answ{
+    display:none;
+    position: absolute;
+    top: 4px;
+    color:black;
+    font-family:arial;
+    line-height: 15px;
+    }
+
 .help-text-lvl1{
     position: absolute;
     color:white;
