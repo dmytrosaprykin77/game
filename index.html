@@ -15,9 +15,9 @@
 
     <div class="dialogue">
         <div class="dial-text-lvl1">
-            Привіт! Я персонаж цієї гри,<br>
-            Я допоможу тобі із вивченням,<br>
-            простих команд в js. Зараз я навчу тебе керувати силою думки. Cпочатку зроби так, щоб стріла 
+            Привіт! Я персонаж цієї гри.,<br>
+            Я допоможу тобі із вивченням.,<br>
+            простих команд в js. Зараз я навчу тебе керувати силою думки. Cпочатку потрібно, щоб стріла 
             з'явилася і далі ми продовжимо! :D
             
         </div>
@@ -30,32 +30,50 @@
             сталу швидкість.
         </div>
 
-         <div class="dial-text-correct-answ">
-            іба чотко
-        </div>
-
-
     </div>
     
     <div class="help">
-    <div class="help-text-lvl1">
+
+    <div class="help-box-lvl1">
+    <div class=help-text-lvl1>
+        Підказка до 1 рівня:<br>
         let class =
          document.querySelector(".class");
     </div>
-    <div class="help-text-lvl2">
-        function name() {
-        for(let i = 0; i < number; i++) {
-        arrow.style.left +=2px }}
-    </div>
 
-    <div class="help-text-lvl3">
-        async function name() {
-        for(let i = 0; i < number; i++){ await new Promise(r => setTimeout(r, time)) }}
     </div>
+    
+    <div class="help-box-lvl2">
+        <div class="help-text-lvl2">
+            Підказка до 3 рівня:<br>
+            function name() {
+        for(let i = 0; i < number; i++) {
+            x = x + 2;
+        arrow.style.left = x + "px" }} -- рекомендується назвати функцію arrowfly()
+    </div> 
+
+    </div>
+ 
+    <div class="help-box-lvl3">
+        
+    <div class="help-text-lvl3">
+        Підказка до 2 рівня:<br>
+    async function arrowfly(){
+    for(let i = 0; i < number; i++){
+     x += 2;
+    await new Promise(r => setTimeout(r,time));
+    arrow.style.left = x + "px";
+        }
+    }
+    arrowfly();
+   </div>
+
+    </div>
+    
  </div>
 
-    <div class="apple"><img src="pixil-gif-drawing (6).gif" alt="" 
-        style="width: 100px; height: 100px; position: absolute; top: 200px; left: 1800px;"></div>
+     <img src="pixil-gif-drawing (6).gif" alt="" class="aplle"
+        style="width: 100px; height: 100px; position: absolute; top: 200px; left: 1800px;">
 
     <div class = "platform"></div>
 
@@ -76,10 +94,8 @@
 
 <div class="logo"></div>
 
-<button>NEXT</button>
-
 <div class="points-box">
-    <div class = "points"></div>
+    <div class = "points">POINTS: 0</div>
 </div>
 
 <div class="level-box">LEVEL: 1</div>
@@ -87,6 +103,8 @@
 <img src="pixil-frame-0 (2).png" alt="" style="position: absolute; top: 200px; left: 1800px; width: 100px; height: 100px;" class = "apple">
 
 <div class="bg"></div>
+
+<div class="commands"></div>
 </body>
 
 <script src="script.js"></script>
